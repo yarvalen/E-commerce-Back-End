@@ -60,7 +60,15 @@ router.put('/:id', async (req, res) => {
 router.delete('/:id', async (req, res) => {
   // delete on tag by its `id` value
   try{
-    const tagData = await 
+    const tagData = await Taf.destroy({
+      where: { id: req.params.id}
+    });
+    if (!tagData){
+      return res.status(404).json({message: 'No tag found in this id'});
+    }
+    res.status(200).json('The tag has been deleted,id:${tagData}');
+  } catch (err) {
+    res.status(500).json(err);
   }
 });
 
