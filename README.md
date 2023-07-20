@@ -10,7 +10,7 @@ This application is build by the back end for an e-commerce site that focuses in
 - License
 
 ## Installation
-Copy the repository to your computer. In the terminal run "npm run seed" and  "npm start"
+First install the inquirer package by using the command "npm i inquirer@8.2.4, next copy the repository to your computer. In the terminal run "npm run seed" and  "npm start"
 
 ## Usage
 Link application has been added below of how to use the application.
