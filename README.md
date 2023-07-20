@@ -15,6 +15,9 @@ First install the inquirer package by using the command "npm i inquirer@8.2.4, n
 ## Usage
 Link application has been added below of how to use the application.
 
+## Demo video 
+https://drive.google.com/file/d/1A2dlOg_5Ebk2O2QEy5nJ-GGU4F_JJ3Jz/view
+
 ## Credits
 Instructor: Saurav Khatiwada Tutor: Andres Jimenez
 
